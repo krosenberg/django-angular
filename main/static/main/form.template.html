@@ -1,0 +1,12 @@
+<form ng-submit="addPost()">
+	<legend>Create a Post</legend>
+	<label>Title</label>
+	<div class="form-group">
+		<input required class="form-control" type="text" ng-model="postTitle"/>
+	</div>
+	<div class="form-group">
+		<label>Text</label>
+		<textarea required class="form-control" ng-model="postText"></textarea>
+	</div>
+	<button class="btn btn-default" type="submit">Create Post</button>
+</form>
